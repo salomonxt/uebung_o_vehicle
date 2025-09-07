@@ -9,8 +9,8 @@ public class Vehicle {
 
     public static void main(String[] args) { //prüfe position!
         System.out.println("Welcome to Vehicle");
-        Vehicle auto = new car("Mode200","bmw","1970", "2");//error
-        System.out.println("Model: " + auto.model+ " Manufactor: " + auto.manufacture+ " Year: " +auto.year+ " Doors : kommtnoch");
+        Vehicle auto = new car("Model200","bmw","1970", "2");//error
+        System.out.println("Model: " + auto.model+ " Manufactor: " + auto.manufacture+ " Year: " +auto.year+ " Doors : *kommtnoch*");
         //error mit doors - zahl fehlt
 
 
